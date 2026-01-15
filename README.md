@@ -199,7 +199,7 @@ Customer-Shopping-Behavior-Analysis/
 │   └── Customer_Shopping_Behavior_Analysis.pdf
 │   └── Customer_Shopping_Behavior_Analysis.pptx
 │
-└── README.md``` 
+└── README.md
 
 Implement real-time dashboards
 
