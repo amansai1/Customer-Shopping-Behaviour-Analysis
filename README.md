@@ -30,15 +30,7 @@ Notebook	Jupyter Notebook
 Version Control	Git & GitHub
 
 # End-to-End Data Pipeline
-Raw CSV Dataset
-      ↓
-Python Data Cleaning & Feature Engineering (Jupyter Notebook)
-      ↓
-PostgreSQL Database (Docker Container)
-      ↓
-SQL Analysis (VS Code + SQLTools)
-      ↓
-Power BI Dashboard (Windows VM)
+<img width="243" height="570" alt="Screenshot 2026-01-15 at 1 35 05 PM" src="https://github.com/user-attachments/assets/138ab207-43c7-450d-8d52-e0b6dbdded3a" />
 
 # Dataset Description
 
