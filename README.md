@@ -30,7 +30,7 @@ Notebook	Jupyter Notebook
 Version Control	Git & GitHub
 
 # Project Structure
-Customer-Shopping-Behavior-Analysis/
+```Customer-Shopping-Behavior-Analysis/
 │
 ├── dataset/
 │   └── customer_shopping_data.csv
@@ -48,10 +48,10 @@ Customer-Shopping-Behavior-Analysis/
 │   └── Customer_Shopping_Behavior_Analysis.pdf
 │   └── Customer_Shopping_Behavior_Analysis.pptx
 │
-└── README.md
+└── README.md``` 
 
 # End-to-End Data Pipeline
-Raw CSV Dataset
+```Raw CSV Dataset
       ↓
 Python Data Cleaning & Feature Engineering (Jupyter Notebook)
       ↓
@@ -59,7 +59,7 @@ PostgreSQL Database (Docker Container)
       ↓
 SQL Analysis (VS Code + SQLTools)
       ↓
-Power BI Dashboard (Windows VM)
+Power BI Dashboard (Windows VM)```
 
 # Dataset Description
 
@@ -97,13 +97,13 @@ Ensured schema consistency for database ingestion
 
 PostgreSQL was deployed using Docker:
 
-docker run -d \
+```docker run -d \
   --name postgres \
   -e POSTGRES_USER=admin \
   -e POSTGRES_PASSWORD=admin123 \
   -e POSTGRES_DB=customer_behavior \
   -p 5432:5432 \
-  postgres:15
+  postgres:15```
 
 
 The cleaned dataset was loaded into PostgreSQL using SQLAlchemy + psycopg2.
