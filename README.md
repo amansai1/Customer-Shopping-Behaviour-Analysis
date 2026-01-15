@@ -120,6 +120,7 @@ Window functions (ROW_NUMBER)
 Aggregations and ranking logic
 
 # Power BI Dashboard
+<img width="902" height="485" alt="Screenshot 2026-01-15 at 2 41 13 PM" src="https://github.com/user-attachments/assets/5a0d9164-9f24-495f-b7a6-083a3e285dab" />
 
 Power BI Desktop was installed on Windows 11 ARM via VMware Fusion (macOS host).
 
