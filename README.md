@@ -194,14 +194,16 @@ Customer-Shopping-Behavior-Analysis/
 ├── notebooks/
 │   └── Customer_Shopping_Behavior_Analysis.ipynb
 │
-├── sql/
+├── sql script/
 │   └── customer_analysis_queries.sql
 │
-├── powerbi/
+├── powerbi dashboard/
 │   └── customer_behavior_dashboard.pbix
 │
+│
 ├── report/
-│   └── Customer_Shopping_Behavior_Analysis.pdf
-│   └── Customer_Shopping_Behavior_Analysis.pptx
+│   └── Business Problem Document.pdf
+│   |__ Customer_Shopping_Behavior_Analysis.pdf
+|   └── Customer_Shopping_Behavior_Analysis.pptx
 │
 └── README.md
