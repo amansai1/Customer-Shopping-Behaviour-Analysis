@@ -134,7 +134,7 @@ Average Purchase Amount
 
 Average Review Rating
 
-Visualizations:
+# Visualizations:
 
 Donut chart (Subscription Status)
 
@@ -152,7 +152,7 @@ Category
 
 Shipping Type
 
-PostgreSQL Connectivity
+# PostgreSQL Connectivity
 
 Connected via PostgreSQL ODBC Driver
 
@@ -160,7 +160,7 @@ Encryption fallback handled during connection
 
 Verified data using Navigator (public.customer table)
 
-Key Business Insights
+# Key Business Insights
 
 Subscribed customers generate higher total revenue
 
@@ -172,13 +172,18 @@ Customers using discounts still make high-value purchases
 
 Express and Standard shipping show different spending patterns
 
-Future Enhancements
+# Future Enhancements
 
 Automate ETL using Apache Airflow
 
 Deploy PostgreSQL on AWS / Azure
 
 Add predictive analytics (customer churn & LTV)
+
+Implement real-time dashboards
+
+Integrate machine learning models
+
 # Project Structure
 ```
 Customer-Shopping-Behavior-Analysis/
@@ -200,7 +205,3 @@ Customer-Shopping-Behavior-Analysis/
 │   └── Customer_Shopping_Behavior_Analysis.pptx
 │
 └── README.md
-
-Implement real-time dashboards
-
-Integrate machine learning models
