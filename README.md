@@ -29,29 +29,8 @@ Environment	macOS (Host) + Windows 11 ARM (VMware Fusion)
 Notebook	Jupyter Notebook
 Version Control	Git & GitHub
 
-# Project Structure
-```Customer-Shopping-Behavior-Analysis/
-│
-├── dataset/
-│   └── customer_shopping_data.csv
-│
-├── notebooks/
-│   └── Customer_Shopping_Behavior_Analysis.ipynb
-│
-├── sql/
-│   └── customer_analysis_queries.sql
-│
-├── powerbi/
-│   └── customer_behavior_dashboard.pbix
-│
-├── report/
-│   └── Customer_Shopping_Behavior_Analysis.pdf
-│   └── Customer_Shopping_Behavior_Analysis.pptx
-│
-└── README.md``` 
-
 # End-to-End Data Pipeline
-```Raw CSV Dataset
+Raw CSV Dataset
       ↓
 Python Data Cleaning & Feature Engineering (Jupyter Notebook)
       ↓
@@ -59,7 +38,7 @@ PostgreSQL Database (Docker Container)
       ↓
 SQL Analysis (VS Code + SQLTools)
       ↓
-Power BI Dashboard (Windows VM)```
+Power BI Dashboard (Windows VM)
 
 # Dataset Description
 
@@ -97,13 +76,13 @@ Ensured schema consistency for database ingestion
 
 PostgreSQL was deployed using Docker:
 
-```docker run -d \
+docker run -d \
   --name postgres \
   -e POSTGRES_USER=admin \
   -e POSTGRES_PASSWORD=admin123 \
   -e POSTGRES_DB=customer_behavior \
   -p 5432:5432 \
-  postgres:15```
+  postgres:15
 
 
 The cleaned dataset was loaded into PostgreSQL using SQLAlchemy + psycopg2.
@@ -207,6 +186,27 @@ Automate ETL using Apache Airflow
 Deploy PostgreSQL on AWS / Azure
 
 Add predictive analytics (customer churn & LTV)
+# Project Structure
+```
+Customer-Shopping-Behavior-Analysis/
+│
+├── dataset/
+│   └── customer_shopping_data.csv
+│
+├── notebooks/
+│   └── Customer_Shopping_Behavior_Analysis.ipynb
+│
+├── sql/
+│   └── customer_analysis_queries.sql
+│
+├── powerbi/
+│   └── customer_behavior_dashboard.pbix
+│
+├── report/
+│   └── Customer_Shopping_Behavior_Analysis.pdf
+│   └── Customer_Shopping_Behavior_Analysis.pptx
+│
+└── README.md``` 
 
 Implement real-time dashboards
 
