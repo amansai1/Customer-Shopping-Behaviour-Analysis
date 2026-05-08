@@ -8,16 +8,39 @@ The goal of the project is to extract actionable business insights related to cu
 
 This project was designed and implemented as a portfolio project to demonstrate real-world data engineering, SQL analytics, and BI visualization skills.
 
-Author Details
+# Power BI Dashboard
 
-Author: Sai Aman Teppala
-Degree: MSc Data Analytics
-Project Type: Portfolio Project
-Year: 2025
+<img width="2878" height="1546" alt="Screen Recording 2026-02-27 at 12 22 35 PM" src="https://github.com/user-attachments/assets/0970f766-3ab1-4b2a-8bed-b5c83358901e" />
 
-Email: amansaileo@gmail.com
+Power BI Desktop was installed on Windows 11 ARM via VMware Fusion (macOS host).
 
-LinkedIn: https://www.linkedin.com/in/saiamanteppala/
+Dashboard Features
+
+KPI Cards:
+
+Number of Customers
+
+Average Purchase Amount
+
+Average Review Rating
+
+# Visualizations:
+
+Donut chart (Subscription Status)
+
+Bar charts (Revenue & Sales by Category)
+
+Horizontal bar charts (Revenue & Sales by Age Group)
+
+Interactive slicers:
+
+Subscription Status
+
+Gender
+
+Category
+
+Shipping Type
 
 # Technology Stack
 Layer	Tools Used
@@ -119,39 +142,6 @@ Window functions (ROW_NUMBER)
 
 Aggregations and ranking logic
 
-# Power BI Dashboard
-<img width="902" height="485" alt="Screenshot 2026-01-15 at 2 41 13 PM" src="https://github.com/user-attachments/assets/5a0d9164-9f24-495f-b7a6-083a3e285dab" />
-
-Power BI Desktop was installed on Windows 11 ARM via VMware Fusion (macOS host).
-
-Dashboard Features
-
-KPI Cards:
-
-Number of Customers
-
-Average Purchase Amount
-
-Average Review Rating
-
-# Visualizations:
-
-Donut chart (Subscription Status)
-
-Bar charts (Revenue & Sales by Category)
-
-Horizontal bar charts (Revenue & Sales by Age Group)
-
-Interactive slicers:
-
-Subscription Status
-
-Gender
-
-Category
-
-Shipping Type
-
 # PostgreSQL Connectivity
 
 Connected via PostgreSQL ODBC Driver
@@ -207,3 +197,14 @@ Customer-Shopping-Behavior-Analysis/
 |   └── Customer_Shopping_Behavior_Analysis.pptx
 │
 └── README.md
+```
+Author Details
+
+Author: Sai Aman Teppala
+Degree: MSc Data Analytics
+Project Type: Portfolio Project
+Year: 2025
+
+Email: amansaileo@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/saiamanteppala/
